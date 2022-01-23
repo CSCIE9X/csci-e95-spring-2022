@@ -2,7 +2,7 @@
 %debug
 %defines
 %locations
-%pure-parser
+%define api.pure
 %lex-param {yyscan_t scanner}
 %parse-param {YYSTYPE *root}
 %parse-param {int *error_count}
