@@ -23,8 +23,6 @@
   /* Suppress compiler warnings about unused variables and functions. */
   #define YY_EXIT_FAILURE ((void)yyscanner, 2)
   #define YY_NO_INPUT
-  /* suppress sign-compare warnings until flex version 2.6.3 */
-  #pragma GCC diagnostic ignored "-Wsign-compare"
 
   /* Track locations. */
   #define YY_EXTRA_TYPE int
@@ -54,23 +52,23 @@ number          {digit}+
 {ws}        /* do nothing */
 
   /* operators begin */
-\*          return ASTERISK_T;
-\+          return PLUS_T;
--           return MINUS_T;
-\/          return SLASH_T;
-\=          return EQUAL_T;
+\*          return ASTERISK;
+\+          return PLUS;
+-           return MINUS;
+\/          return SLASH;
+\=          return EQUAL;
 
-\(          return LEFT_PAREN_T;
-\)          return RIGHT_PAREN_T;
-;           return SEMICOLON_T;
+\(          return LEFT_PAREN;
+\)          return RIGHT_PAREN;
+;           return SEMICOLON;
   /* operators end */
 
   /* constants begin */
-{number}    *yylval = node_number(*yylloc, yytext); return NUMBER_T;
+{number}    *yylval = node_number(*yylloc, yytext); return NUMBER;
   /* constants end */
 
   /* identifiers */
-{id}        *yylval = node_identifier(*yylloc, yytext, yyleng); return IDENTIFIER_T;
+{id}        *yylval = node_identifier(*yylloc, yytext, yyleng); return IDENTIFIER;
 
 .           return -1;
 
@@ -118,7 +116,7 @@ void scanner_print_tokens(FILE *output, int *error_count, yyscan_t scanner) {
       fprintf(output, "     token = [%-20s]", parser_token_name(token));
 
       switch (token) {
-        case NUMBER_T:
+        case NUMBER:
           /* Print the type and value. */
           fputs("     type = ", output);
           type_print(output, val->data.number.result.type);
@@ -129,7 +127,7 @@ void scanner_print_tokens(FILE *output, int *error_count, yyscan_t scanner) {
           }
           break;
 
-        case IDENTIFIER_T:
+        case IDENTIFIER:
           fprintf(output, "     name = %s", val->data.identifier.name);
           break;
       }

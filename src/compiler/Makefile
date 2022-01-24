@@ -31,20 +31,14 @@ LDLIBS += -ly
 	@touch $@
 # End Bison setup.
 
-SRC_CORE = compiler.c parser.tab.c scanner.yy.c node.c symbol.c type.c ir.c mips.c
-
 EXECS = compiler
-SRCS = main.c ${SRC_CORE}
+SRCS = compiler.c parser.tab.c scanner.yy.c node.c symbol.c type.c ir.c mips.c
 OBJS = $(subst .c,.o,$(SRCS))
-
-TEST_EXECS = runAllTests
-TEST_SRCS = runAllTests.c ${SRC_CORE}
-TEST_OBJS = $(subst .c,.o,$(TEST_SRCS))
 
 all : $(EXECS)
 
 clean :
-	rm -f $(EXECS) ${TEST_EXECS} *.o *.yy.[ch] *.tab.[ch] *.output .depend
+	rm -f $(EXECS) *.o *.yy.[ch] *.tab.[ch] *.output .depend
 
 depend: .depend
 
@@ -55,6 +49,3 @@ depend: .depend
 
 compiler: $(OBJS)
 	$(CC) -o $@ $(LDFLAGS) $^ $(LDLIBS)
-
-test: $(TEST_OBJS)
-	$(CC) -o runAllTests $(LDFLAGS) $^ $(LDLIBS)

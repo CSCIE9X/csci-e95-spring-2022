@@ -24,14 +24,8 @@ struct symbol_table {
   struct symbol_list *variables;
 };
 
-struct symbol_context {
-    struct symbol_table * table;
-    bool is_definition;
-    int error_count;
-};
-
 void symbol_initialize_table(struct symbol_table *table);
-void symbol_ast_traversal(struct symbol_context *context, struct node *node);
+int symbol_add_from_statement_list(struct symbol_table *table, struct node *statement_list);
 void symbol_print_table(FILE *output, struct symbol_table *table);
 
 #endif /* _SYMBOL_H */
