@@ -1,24 +1,34 @@
-			Last revised 15-Jan-20
+		       Last revised 21-Jan-2022
 
-			  Questionnaire for
+			    Questionnaire
 
-		 Harvard Extension School CSCI E-93:
-			Computer Architecture
+		 Harvard Extension School CSCI E-95:
+		  Compiler Design and Implementation
 
-			     Fall 2021
-
-
-Name:				Home/Cellular phone number:
+			     Spring 2022
 
 
-E-mail:				Work phone number:
+Name:
+
+
+Home/Cellular phone number:
+
+
+E-mail:
+
+
+Work phone number:
 
 
 Where are you located?  What is your time zone?
 
 
-So that we can meet on-line, if necessary, what is your Skype name
-and/or your Google Hangouts name?  And, which do you prefer to use?
+What pronouns would you like us to use when referring to you?
+
+
+If it's necessary for us to meet on-line using an app other than Zoom,
+what is your Google Hangouts name and/or your Skype name?  And, which
+do you prefer to use?
 
 
 Occupation (If an undergraduate student, please specify your major and
@@ -31,78 +41,51 @@ Have you taken:
       Using Java I),
   CSCI E-10b (Formerly CSCI E-50b) (Introduction to Computer Science
       Using Java II),
+  CSCI E-22 (Formerly CSCI E-119) (Data Structures),
+  CSCI E-26 (Introduction to C, Unix/Linux Programming, and Web
+      Interfaces),
   CSCI E-28 (Formerly CSCI E-215) (Unix/Linux Systems Programming),
+  CSCI E-38 (Introduction to C++ for Programmers),
   CSCI E-50 (Formerly CSCI E-52) (Intensive Introduction to Computer
       Science),
+  CSCI E-53 (Effective C++ for Programmers),
+  CSCI E-61 (Systems Programming and Machine Organization),
   ENSC E-123 or CSCI E-123 (Laboratory Electronics: Digital Circuit
       Design),
   PHYS E-123a (Laboratory Electronics: Analog Circuit Design),
   CSCI E-124 (Data Structures and Algorithms),
-  or equivalents
-(specify which)?
+  CSCI E-152 (Programming Languages),
+
+  or equivalents?  Please specify which.
 
 
-Have you taken CSCI E-22 (Formerly CSCI E-119) (Data Structures)?
+If you have not taken CSCI E-22 (Formerly CSCI E-119) (Data
+Structures) or CSCI E-124 (Data Structures and Algorithms), how do you
+meet the prerequisite?
 
-	If not, how do you meet the prerequisite?
+
+More specifically, do you have experience implementing many different
+data structures from scratch?  If yes, please describe.  If not, how
+do you meet the prerequisite?
 
 
 Are you currently working toward a degree in a degree program?  If so,
-which program and what degree?
+at what institution, which program, and what degree?
+
+
+Concurrently with taking this class, are you working full time?  Part time?
 
 
 Are you taking any other classes concurrently with this one?
 
 
-Do you have experience implementing many different data structures
-from scratch?  If yes, please describe.  If not, how do you meet the
-prerequisite?
-
-
-Do you have experience using Unix?  Do you have experience programming
-using Unix system calls?  If yes, please describe.
+Do you have experience using Posix/Linux/Unix?  Are you familiar with
+Posix/Linux/Unix shell commands?  Do you have experience programming
+using Posix/Linux/Unix system calls?  If yes, please describe.
 
 
 Do you have experience using Windows?  If so, as a user or as a
 programmer?
-
-
-Do you have experience designing digital logic circuits?  If yes,
-please describe.
-
-
-Do you have experience programming in VHDL or Verilog?  If yes, please
-describe.
-
-
-Are you already registered for this class?  -- If not, do you intend
-to register?  Also, are you registered as a distance student?  Do you
-intend to attend classes in person?
-
-
-This class has a proctored midterm exam.  Distance students are
-required to make arrangements for a proctor.  See
-https://www.extension.harvard.edu/resources-policies/exams-grades-transcripts/exams-online-courses
-for information about proctors.  If you live within the six-state New
-England area (Connecticut, Maine, Massachusetts, New Hampshire, Rhode
-Island, and Vermont) you must come to campus to take your exam.  Are
-you taking the midterm exam on campus?  If not, have you already made
-arrangements for a proctor?
-
-
-Do you plan to purchase your own Altera/Terasic DE2-115 Development
-Board?
-
-
-If you are planning to purchase your own Altera/Terasic DE2-115
-Development Board, have you already ordered and/or received it?  If
-you are a distance student (i.e., if you are unable to borrow the
-hardware and return the hardware in person), you must purchase your
-own hardware.
-
-
-Are you taking the course for undergraduate credit, graduate credit,
-or noncredit?
 
 
 What additional appropriate course or work experience do you have?
@@ -120,14 +103,17 @@ What operating systems have you used (e.g. Windows, Mac OS, Linux,
 iOS, Android, etc.)?
 
 
-What computers have you used (i.e., which machine language instruction
-sets)?
+What computers (including microcontrollers) (e.g. x86, MIPS, ARM,
+PowerPC, M1, SPARC, VAX, Microchip PIC, Intel 8051, Renesas, Motorola
+6800 or 68000) have you programmed in assembly language (i.e., which
+machine code instruction sets)?
+
+
+In general, do you intend to attend the section meetings and classes
+live or watch the recorded sessions?
 
 
 What is your motivation for taking this course?
-
-
-If the class needs to be rescheduled, is Thursday evening acceptable?
 
 
 Other comments:
