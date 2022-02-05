@@ -6,6 +6,8 @@
 #include "node.h"
 #include "symbol.h"
 
+unsigned int nextSymbolId;
+
 /************************
  * CREATE SYMBOL TABLES *
  ************************/
